@@ -1,0 +1,6 @@
+function z = ydot(t, x)
+    m2 = 3, g = 1; mg2 = m2 * g; px2 = 0; py2 = 0;
+    px1 = x(1); py1 = x(3); vx1 = x(2); vy1 = x(4);
+    dist = sqrt(
+end
+
